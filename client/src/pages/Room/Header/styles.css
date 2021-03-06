@@ -1,3 +1,26 @@
 .header-wrapper {
-  background-color: violet;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+}
+
+span {
+  display: inline-block;
+  margin-left: 10px;
+  word-wrap: break-word;
+}
+
+.list-title {
+  width: 85px;
+  margin-left: 0;
+  text-align: right;
 }

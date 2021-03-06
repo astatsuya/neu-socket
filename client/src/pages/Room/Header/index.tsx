@@ -8,9 +8,24 @@ type Props = {
 export const Header: React.VFC<Props> = ({ username, roomName }) => {
   return (
     <header className="header-wrapper">
-      <h2>neu</h2>
-      <div>{roomName}</div>
-      <div>{username}</div>
+      <ul className="room-and-name">
+        <li>
+          <span className="list-title">Room:</span>
+          <span>{roomName}</span>
+        </li>
+        <li>
+          <span className="list-title">Your name:</span>
+          <span>{username}</span>
+        </li>
+        <li>
+          <span className="list-title">Members:</span>
+          <span>member1</span>
+          <span>member2</span>
+          <span>member3</span>
+          <span>member4</span>
+          <span>member5</span>
+        </li>
+      </ul>
     </header>
   );
 };
