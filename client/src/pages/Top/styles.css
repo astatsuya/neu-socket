@@ -1,0 +1,29 @@
+.top-wrapper {
+  background-color: whitesmoke;
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.text-input + .text-input {
+  margin-top: 10px;
+}
+
+.text-input span {
+  display: inline-block;
+  width: 80px;
+  text-align: left;
+}
+
+.text-input input {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+button {
+  margin: 15px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
