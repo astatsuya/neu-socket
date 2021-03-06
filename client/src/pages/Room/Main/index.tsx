@@ -1,4 +1,5 @@
 import React from "react";
+import { Card } from "./Card";
 import "./styles.css";
 
 type Props = {};
@@ -22,6 +23,7 @@ type Props = {};
 export const Main: React.VFC<Props> = () => {
   return (
     <div className="main-wrapper">
+      <Card name="山札" />
       <div>current card</div>
       <div>Your cards</div>
     </div>

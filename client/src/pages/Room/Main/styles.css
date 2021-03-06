@@ -1,4 +1,6 @@
 .main-wrapper {
   background-color: yellowgreen;
   height: 100%;
+  padding: 5px;
+  text-align: center;
 }
