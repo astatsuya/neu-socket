@@ -4,3 +4,25 @@
   padding: 5px;
   text-align: center;
 }
+
+.yamafuda-wrapper {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.current-card-wrapper {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.your-card-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.your-card-wrapper div + div {
+  margin-left: 15px;
+}

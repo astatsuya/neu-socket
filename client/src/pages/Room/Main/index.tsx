@@ -23,9 +23,17 @@ type Props = {};
 export const Main: React.VFC<Props> = () => {
   return (
     <div className="main-wrapper">
-      <Card name="山札" />
-      <div>current card</div>
-      <div>Your cards</div>
+      <div className="yamafuda-wrapper">
+        <Card name="山札" />
+      </div>
+      <div className="current-card-wrapper">
+        <Card name="♤13" />
+      </div>
+      <div className="your-card-wrapper">
+        <Card name="♡1" />
+        <Card name="♢10" />
+        <Card name="♧5" />
+      </div>
     </div>
   );
 };
